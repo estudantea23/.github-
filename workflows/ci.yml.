@@ -1,1 +1,10 @@
-# .github-
+name:CI-Aula-Pratica
+on: [push]
+jobs:
+ verificaçao-inicial:
+  runs-on:  ubuntu-latest
+steps:
+  - name : chekcout do codigo
+    uses : actions/checkout@v4
+  - name : simular teste
+    run : echo "Executando testes automatizados..."
