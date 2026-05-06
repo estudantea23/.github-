@@ -1,6 +1,5 @@
 name: CI-Aula-pratica
 on: [push]
-
 jobs:
   verificaçao-inicial:
      runs-on: ubuntu-latest
